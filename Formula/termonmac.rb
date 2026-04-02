@@ -1,16 +1,16 @@
 class Termonmac < Formula
   desc "Remote terminal access to your Mac from iOS"
   homepage "https://termonmac.com"
-  version "1.1.0-124"
+  version "1.2.0-126"
   license :cannot_represent
 
   on_arm do
-    url "https://github.com/termonmac/termonmac/releases/download/v1.1.0-124/termonmac-arm64.tar.gz"
-    sha256 "943ae36991c0a6dc44cdcda8a3d94d0261c3cf59ee334f4292944095570f6ff2"
+    url "https://github.com/termonmac/termonmac/releases/download/v1.2.0-126/termonmac-arm64.tar.gz"
+    sha256 "d2b541389e37ab531980a58c62f81b244ecb3bee17a57420e268fbc6d62e5cca"
   end
   on_intel do
-    url "https://github.com/termonmac/termonmac/releases/download/v1.1.0-124/termonmac-x86_64.tar.gz"
-    sha256 "bc22be924dd3a86c38570d16c946ee97edb9222257aea63a42d290bd461bd94f"
+    url "https://github.com/termonmac/termonmac/releases/download/v1.2.0-126/termonmac-x86_64.tar.gz"
+    sha256 "c720338e5956956b5c3dc84e4704bc5baf9f8df85c68352d88d8d4763af31110"
   end
 
   def install
