@@ -10,7 +10,7 @@ class Termonmac < Formula
   end
   on_intel do
     url "https://github.com/termonmac/termonmac/releases/download/v1.3.0-201/termonmac-x86_64.tar.gz"
-    sha256 "f1c6610b84064dbf841fcaa016e6481b5f10fea28bea1a30a1258b1e7d948b3c"
+    sha256 "05cc93183f7a8b3a3e83656170a17897d1458b617c28887f0ec6f331c2c61802"
   end
 
   def install
